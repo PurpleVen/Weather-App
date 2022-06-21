@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    /*background-color: #ebfffd;*/
+    /*background-image: url("https://assets.digitalocean.com/labs/images/community_bg.png");*/
+    background-image: url(icons/manos-gkikas-L0tsGE7634E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+
+#search-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temperature
+{
+    text-align: center;
+}
+
+#temperature #temperature-unit
+{
+    font-family: Calibri, serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#temperature #temperature-value
+{
+    font-family: Calibri, serif;
+    font-size: 2rem;
+    color: black;
+}
+
+#climate
+{
+    font-family: Calibri, serif;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+
+#location
+{
+    font-family: Calibri, serif;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+
+#temperature-icon
+{
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+main{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #eba2a4;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 20px 20px 10px rgba(13, 29, 86, 0.2);
+}
+
+#search-button
+{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #a98dac;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+#search-button:hover{
+    color: white;
+    background: #eba2a4;
+    border-color: palevioletred;
+    transition: all 0.4s ease 0s
+}
+
+#search-input
+{
+    width: 260px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: "Arial Rounded MT Bold", serif;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #a98dac;
+    color: #eba2a4;
+    outline: none;
+    background: none;
+}
+
+input{
+    border: none;
+}
